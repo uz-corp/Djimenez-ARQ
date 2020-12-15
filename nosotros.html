@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimun-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+    <!--título para la pestaña del navegador-->
+    <title>Nosotros | Smile Center San Ángel</title>
+    <!--ícono en la pestaña de la página-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/diente.ico">
+    <link rel="apple-touch-icon" href="img/diente.ico">
+
+    <!--Llamada para JQuery-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/funciones.js"></script>
+
+    <!--Llamado a los iconos que manejara la página-->
+    <link href="https://file.myfontastic.com/uwQdHkvwHSCKASt7QfbbCY/icons.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Dentro de las clases se realiza el llamado de varias acciones que permitiran poder tener un mejor manejo de los elementos en cuanto al ingreso de estilos-->
+    <header class="main-header">
+        <div class="cont contflex">
+            <div class="column column--50">
+                <a href="#" class="logo-1"><span>Smile</span>Center<span>San</span>Ángel</a>
+            </div>
+            <div class="contactinfo  column column--50">
+                <div class="phone">
+                    <span class="icon-phone">821-73-02</span>
+                </div>
+                <div class="direccion">
+                    <span class="icon-location">Sierra de Alvarez No. 193 Fracc. La Sierra</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div clas="cont contflex">
+            <!--Creacion de menú-->
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menuitem"><a href="index.html" class="menulink">Inicio</a></li>
+                <li class="menuitem"><a href="/" class="menulink   select">Nosotros</a></li>
+                <li class="menuitem"><a href="servicios.html" class="menulink">Servicios</a></li>
+                <li class="menuitem"><a href="citas.html" class="menulink">Citas</a></li>
+                <li class="menuitem"><a href="contacto.html" class="menulink">Cómo llegar</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="img/portada2.jpg" alt="" class="bimg">
+        <div class="banncon">Ser odontólogo no es cualquier cosa, es todo un privilegio</div>
+    </section>
+
+    <main class="main">
+        <section class="sobre-nosotros">
+            <h2 class="titulo">Acerca de Smile Center San Ángel</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/nosotros.png" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <p>Con más de 35 años de experiencia, Smile Center se ha caracterizado por ofrecer a sus pacientes el mejor servicio, teniendo como guía permanente los siguientes valores:</p>
+                    <h4><span>1</span>Satisfacción</h4>
+                    <p>Esa es nuestra prioridad #1. Queremos que salgas de aquí con una gran sonrisa y satisfecho con todo el proceso. Para eso, te ofrecemos los mejores tratamientos y los más cómodos planes de financiamiento.</p>
+                    <h4><span>2</span>Innovación</h4>
+                    <p>Ese es nuestro espíritu. Nunca nos conformamos. El mundo es dinámico y hay quienes le siguen el paso. Nosotros lo marcamos.</p>
+                    <h4><span>3</span>Lealtad</h4>
+                    <p>Ese es nuestro más profundo deseo. Queremos que los resultados hablen por sí mismos y que una vez que nos conozcas, no comprendas porqué la gente iría a algún otro lugar.</p>
+                    <h4><span>4</span>Excelencia</h4>
+                    <p>Ese es nuestro compromiso. Velamos incesablemente porque todo salga conforme a los más altos estándares de calidad.</p>
+                </div>
+            </div>
+        </section>
+        <section class="equipo contenedor">
+            <h2 class="titulo">Nuestro equipo de trabajo</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/2.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Dr. Gabriel López Pérez</h4>
+                        <p>Estética dental</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/3.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Dra. Sonia Ivonne Segovia Hernández</h4>
+                        <p>Odontología infantil</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="equipo contenedor">
+            <div class="cards">
+                <div class="card">
+                    <img src="img/5.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Dr. Alejandro Asz Sigall</h4>
+                        <p>Endodoncia</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/4.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Dra. Ma. Teresa Rodríguez Villanueva</h4>
+                        <p>Cirujano Dentista</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestras instalaciones</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/consul.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Tecnología</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/consul2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Calidad</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/consul3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Equipo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/consultorio.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Atención</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/sala.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Salas</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/sala2jpg.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Sillones</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/consul1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Consultorios</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/consulto2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <p>Material</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="cont contflex">
+            <div class="column column--33">
+                <h2 class="coltitu">¿Por qué visitarnos</h2>
+                <p class="columtexto1">Somos un equipo especializado y capaz de cumplir cada una de tus necesidades, además contamos con excelentes preciosa y nos acoplamos a tu presupuesto nos importa verte con una sonrisa llena de seguridad.</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="coltitu">Contáctanos</h2>
+                <p class="columtexto">San Luis Potosi, SLP</p>
+                <p class="columtexto">Tel: 821-73-02</p>
+                <p class="columtexto">smilecensa@odontologia.com</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="coltitu">Redes Sociales</h2>
+                <p class="columtexto"><a href="" class="icon-facebook">Visitanos en Facebook</a></p>
+                <p class="columtexto"><a href="" class="icon-instagram">Síguenos en Instagram</a></p>
+            </div>
+            <p class="copy">© 2020 Smile Center San Ángel | Todos los derechos reservados </p>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
